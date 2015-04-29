@@ -4,6 +4,7 @@ sudo: false
 os:
 - linux
 - osx
+osx_image: beta-xcode6.2
 env:
   global:
   - GIMME_TMP="${TRAVIS_BUILD_DIR}/tmp"
